@@ -58,7 +58,7 @@ const OrganizationList = () => {
   return (
     <AuthRoute>
       <div className="w-full h-screen">
-        <div className="flex justify-end px-24 items-center gap-4">
+        <div className="flex justify-end px-4 md:px-24 items-center gap-4">
           <button
             onClick={handleLogout}
             className=" w-[160px] h-[50px] text-primary border border-primary hover:bg-primary rounded mt-4 hover:text-white text-base font-semibold"
@@ -67,8 +67,8 @@ const OrganizationList = () => {
           </button>
         </div>
 
-        <div className="flex flex-col flex-wrap items-center justify-center  h-[calc(100%-500px)] w-full">
-          <h2 className="font-semibold text-[20px] md:text-[32px]">
+        <div className="flex flex-col flex-wrap items-center justify-center  h-[calc(100%-500px)] w-full px-4">
+          <h2 className="font-semibold text-[20px] md:text-[32px] text-center">
             {" "}
             Welcome to your Dashboard <span className="text-primary font-bold">{user.name}</span>
           </h2>
