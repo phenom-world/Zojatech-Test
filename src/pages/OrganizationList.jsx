@@ -67,7 +67,7 @@ const OrganizationList = () => {
           </button>
         </div>
 
-        <div className="flex flex-col flex-wrap items-center justify-center  h-[calc(100%-500px)] w-full px-4">
+        <div className="flex flex-col items-center justify-center  h-[calc(100%-500px)] w-full">
           <h2 className="font-semibold text-[20px] md:text-[32px] text-center">
             {" "}
             Welcome to your Dashboard <span className="text-primary font-bold">{user.name}</span>
@@ -77,7 +77,7 @@ const OrganizationList = () => {
             trigger={
               <button
                 onClick={handleSubmit}
-                className="focus:outline-none w-[160px] h-[50px] bg-primary rounded mt-4 text-white text-base font-semibold"
+                className="focus:outline-none w-[160px] h-[50px] py-[10px]  bg-primary rounded mt-4 text-white text-base font-semibold"
               >
                 Edit User{" "}
               </button>
